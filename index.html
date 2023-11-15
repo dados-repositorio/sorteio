@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ppt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>GERADOR DE SORTEIOS BF</title>
+</head>
+<body>
+    <div id="corpo">
+        <header><img src="logobf.png" class="logotipo"></header>
+        <div class="conteudo">
+            <button onclick="gerarNumero()">Gerar Número</button>
+            <br><br>
+        </div>
+        <footer><p id="numeroGerado"><stron></stron></p></footer>
+    </div>
+    <script>
+        maximo = window.prompt("Até qual número deseja sortear?");
+        function gerarNumero() {
+          var numero = Math.floor(Math.random() * maximo) + 1;
+          document.getElementById("numeroGerado").innerHTML = "NÚMERO GERADO: " + numero;
+        }
+    </script>
+
+    <!--ESTE CÓDIGO FONTE FOI DESENVOLVIDO POR: ANDERSON MOURA DE OLIVEIRA
+        WHATSAPP: 65 99950-3724
+        UNIDADE: ALGODOEIRA BOM FUTURO SAPEZAL / ALGODOEIRA SANTA LUZIA
+        EMAIL: anderson.moura@bomfuturo.com.br-->
+</body>
+</html>

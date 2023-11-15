@@ -1,0 +1,60 @@
+*{ margin: 0px; padding: 0px;}
+body{
+    background-color: #EEEEEE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div#corpo{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    background-color: #2A2A2A;
+    border-radius: 5px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 386px;
+    height: 80px;
+    margin-top: 8px;
+    background-color: #3D3D3D;
+    border-radius: 5px;
+}
+.logotipo{
+    width: 130px;
+    height: 50px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 386px;
+    height: 190px;
+    margin-top: 8px;
+    background-color: #3D3D3D;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 386px;
+    height: 130px;
+    margin-top: 8px;
+    background-color: #3D3D3D;
+    border-radius: 5px;
+}
+button{
+    width: 150px;
+    height: 50px;
+}
+p{
+    color: #0ff1b5;
+    font-size: 20pt;
+}
